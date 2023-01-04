@@ -53,9 +53,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                 <input type="text" id="id" name="id" class="form-control" placeholder="id">
                             </div>
                             <div class="form-group">
-                                {{-- <input type="text" id="user_id" name="user_id" class="form-control" placeholder="user_id"> 
-                            </div> --}}
-                            <div class="input-group mb-3">
+                                <input type="text" id="user_id" name="user_id" class="form-control" placeholder="user_id"> 
+                            </div>
+                            {{-- <div class="input-group mb-3">
                                 {{-- <label class="input-group-text" for="id">user_id</label>
                                 <select class="form-select" name="id" id="id">
                                     <option selected>Choose...</option>
@@ -64,15 +64,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                     
                                     ?>
                                 </select> --}}
-                                <label for="user_id">
+                                {{-- <label for="user_id">
                                     <select name="user_id" id="user_id" class="form-control">
                                     <option value="user_id"  <?php
                                     $users = DB::table('users')->get();
                                     ?>>user_id</option>
                                    
                                     </select>
-                                </label>
-                            </div>
+                                </label> --}}
+                            </div> --}}
                             <div class="form-group">
                                 <input type="text" id="nip" name="nip" class="form-control" placeholder="nip">
                             </div>
